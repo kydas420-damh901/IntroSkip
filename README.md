@@ -1,1 +1,1 @@
-# introskip
+# IntroSkip
