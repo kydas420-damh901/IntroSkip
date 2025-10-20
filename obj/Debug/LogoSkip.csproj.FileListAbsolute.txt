@@ -1,0 +1,6 @@
+D:\90_games\50_valheim_ori-mod\introskip\obj\Debug\LogoSkip.csproj.AssemblyReference.cache
+D:\90_games\50_valheim_ori-mod\introskip\obj\Debug\LogoSkip.GeneratedMSBuildEditorConfig.editorconfig
+D:\90_games\50_valheim_ori-mod\introskip\obj\Debug\LogoSkip.AssemblyInfoInputs.cache
+D:\90_games\50_valheim_ori-mod\introskip\obj\Debug\LogoSkip.AssemblyInfo.cs
+D:\90_games\50_valheim_ori-mod\introskip\obj\Debug\LogoSkip.csproj.CoreCompileInputs.cache
+D:\90_games\50_valheim_ori-mod\introskip\obj\Debug\LogoSkip.sourcelink.json

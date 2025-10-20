@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\90_games\\50_valheim_ori-mod\\introskip\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00A9F323-1B80-4FCF-993A-FF2C65589D55}|IntroSkip.csproj|d:\\90_games\\50_valheim_ori-mod\\introskip\\introskip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00A9F323-1B80-4FCF-993A-FF2C65589D55}|IntroSkip.csproj|solutionrelative:introskip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00A9F323-1B80-4FCF-993A-FF2C65589D55}|IntroSkip.csproj|d:\\90_games\\50_valheim_ori-mod\\introskip\\introskip.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{00A9F323-1B80-4FCF-993A-FF2C65589D55}|IntroSkip.csproj|solutionrelative:introskip.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IntroSkip.csproj",
+              "DocumentMoniker": "D:\\90_games\\50_valheim_ori-mod\\introskip\\IntroSkip.csproj",
+              "RelativeDocumentMoniker": "IntroSkip.csproj",
+              "ToolTip": "D:\\90_games\\50_valheim_ori-mod\\introskip\\IntroSkip.csproj",
+              "RelativeToolTip": "IntroSkip.csproj",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-17T04:47:44.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IntroSkip.cs",
+              "DocumentMoniker": "D:\\90_games\\50_valheim_ori-mod\\introskip\\IntroSkip.cs",
+              "RelativeDocumentMoniker": "IntroSkip.cs",
+              "ToolTip": "D:\\90_games\\50_valheim_ori-mod\\introskip\\IntroSkip.cs",
+              "RelativeToolTip": "IntroSkip.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAWwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T04:47:01.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

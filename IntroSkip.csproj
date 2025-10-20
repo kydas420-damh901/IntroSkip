@@ -1,0 +1,77 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		<Deterministic>true</Deterministic>
+		<AssemblyTitle>Intro Skip for Valheim</AssemblyTitle>
+		<AssemblyDescription>Startup intro skipper for Valheim</AssemblyDescription>
+		<AssemblyVersion>1.0.0</AssemblyVersion>
+		<FileVersion>1.0.0</FileVersion>
+		<Authors>YourName</Authors>
+		<Company>YourCompany</Company>
+		<Product>IntroSkip</Product>
+		<Copyright>Copyright © 2025</Copyright>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DebugType>full</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DebugType>pdbonly</DebugType>
+		<Optimize>true</Optimize>
+	</PropertyGroup>
+
+	<!-- Your lib path -->
+	<PropertyGroup>
+		<LibPath>D:\90_games\50_valheim_ori-mod\00_lib</LibPath>
+	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Remove="DecompiledSources\**" />
+	  <Compile Remove="dist\**" />
+	  <EmbeddedResource Remove="DecompiledSources\**" />
+	  <EmbeddedResource Remove="dist\**" />
+	  <None Remove="DecompiledSources\**" />
+	  <None Remove="dist\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="LogOutput.log" />
+	  <None Remove="memo_changes.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="BepInEx">
+			<HintPath>$(LibPath)\BepInEx.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="0Harmony">
+			<HintPath>$(LibPath)\0Harmony.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+
+		<Reference Include="UnityEngine">
+			<HintPath>$(LibPath)\UnityEngine.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>$(LibPath)\UnityEngine.CoreModule.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="UnityEngine.AnimationModule">
+			<HintPath>$(LibPath)\UnityEngine.AnimationModule.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="assembly_valheim">
+			<HintPath>$(LibPath)\assembly_valheim.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+
+	<PropertyGroup>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<OutputPath>E:\r2modman\Valheim\profiles\mod test\BepInEx\plugins</OutputPath>
+	</PropertyGroup>
+</Project>
